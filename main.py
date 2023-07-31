@@ -4,7 +4,6 @@ from scapy.layers.l2 import ARP, Ether
 from scapy.sendrecv import srp
 import time
 
-# Lists to store connected machines, cache, and blacklisting
 connected_machines = []
 
 
@@ -27,4 +26,4 @@ if __name__ == "__main__":
     while True:
         print("\n--- Network Scan ---")
         detect_connected_machines()
-        # time.sleep(5)
+        time.sleep(5)
