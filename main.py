@@ -1,5 +1,3 @@
-import time
-
 from scapy.layers.l2 import ARP, Ether
 from scapy.sendrecv import srp
 import time
